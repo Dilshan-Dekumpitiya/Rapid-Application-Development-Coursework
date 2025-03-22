@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Daily Delights E-Commerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Daily Delights E-Commerce Website, a sample React application showcasing a frontend for a virtual shop  Daily Delights. This project is built entirely with React, utilizing modern tools and libraries like Tailwind CSS, HeadlessUI, Typescript, and Vite for efficient development. The data for products and user cart items are stored in the browser's Local Storage for a simplified, client-only experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Responsive Design**: The website is designed to be accessible and responsive across various devices, providing a seamless experience for users on both desktop and mobile.
 
-### `npm start`
+- **Product Catalog**: Browse through a variety of coffee products with detailed descriptions, prices, and images. Products and their details are stored in Local Storage.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Shopping Cart**: Manage your selected items in the shopping cart. Users can add, remove, and update quantities of products, and all changes are stored in Local Storage.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Checkout Process**: A simplified checkout process allows users to enter their shipping information and complete the purchase. For the sake of this sample, no actual payment processing is implemented.
 
-### `npm test`
+- **User Authentication**: Implement Google Login for user authentication. This provides a secure and convenient way for users to create accounts and log in.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Map Integration**: Utilize Mapbox to display the location of the coffee shop, providing users with a visual reference.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: A JavaScript library for building user interfaces.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building modern designs.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **HeadlessUI**: A set of completely unstyled, fully accessible UI components for React.
 
-### `npm run eject`
+- **Typescript**: A superset of JavaScript that adds static types, enhancing code quality and development experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Vite**: A fast development server, bundler, and optimized build tool.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Mapbox**: A mapping platform for embedding maps into applications.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Disclaimer
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Disclaimer: The product images used in this project are for demonstration purposes only and are sourced from Starbucks and Flaticon. It's essential to replace these placeholder images with ones that you have the right to use in your project. Ensure compliance with copyright and licensing agreements when selecting and using images. The creators of this project do not claim ownership or authorization for the use of the referenced images.**
 
-## Learn More
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+git clone https://github.com/Dilshan-Dekumpitiya/Rapid-Application-Development-Coursework.git
+```
 
-### Code Splitting
+2. Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+```
 
-### Analyzing the Bundle Size
+```
+yarn install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Configure Google Login:
 
-### Making a Progressive Web App
+Obtain your Google API credentials and update the configuration in the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. Configure Mapbox:
 
-### Advanced Configuration
+Sign up for a Mapbox account, create a new project, and obtain an access token. Update the map configuration in the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+5. Run the development server:
 
-### Deployment
+```
+yarn dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+6. Open your browser and navigate to http://localhost:5173 to see the Daily Delights E-Commerce Website in action!
 
-### `npm run build` fails to minify
+## Contributors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Zaw Htet Aung
+
+Feel free to contribute, report issues, or suggest improvements. Happy coding!
